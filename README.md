@@ -1,18 +1,21 @@
-# Learning GoLang
+<h1>
+  <img src=".thumb/animation/gopher-dance-long.gif" width="30" valign="middle">
+  Learning Golang
+</h1>
 
 Welcome to my GoLang learning journey! This repository contains the code and projects I've worked on while learning GoLang. Here's a brief overview of what you'll find in this repository:
 
 ## Topics Covered:
 
-1. **[Getting Started]()**
+1. **[Getting Started](<>)**
    - [Installing GoLang on your system.](https://go.dev/doc/install)
-2. **[Go by example]()**
+2. **[Go by example](<>)**
    - [A hands-on introduction to Go using annotated example program](https://gobyexample.com/)
-3. **[Learn Go fast]()**
-   - [Learn Go with no fluff—just what you need to know.]()
-4. **[Boot.dev]()**
-   - [Introduction to Go]()
-   - [Variables]()
+3. **[Learn Go fast](<>)**
+   - [Learn Go with no fluff—just what you need to know.](<>)
+4. **[Boot.dev](<>)**
+   - [Introduction to Go](<>)
+   - [Variables](<>)
 
 ## Small Projects
 
