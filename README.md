@@ -1,9 +1,11 @@
 <h1>
   <img src=".thumb/animation/gopher-dance-long.gif" width="30" valign="middle">
-  Learning Golang
+  dokkodo golang
 </h1>
 
-Welcome to my GoLang learning journey! This repository contains the code and projects I've worked on while learning GoLang. Here's a brief overview of what you'll find in this repository:
+A personal journey of learning golang
+
+Here's a brief overview of what you'll find in this repository:
 
 ## Topics Covered:
 
