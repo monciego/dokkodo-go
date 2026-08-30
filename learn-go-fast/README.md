@@ -43,7 +43,7 @@ It's advisable to consider data types carefully rather than defaulting to `float
 
 ### Arithmetic Operations: Two Key Points
 
-1. Arithmetic operations cannot be performed with mixed types, but one number can be cast to match the other type.
+1. Arithmetic operations cannot be performed with **mixed types**, but one number can be cast to match the other type.
 2. Integer division truncates the result toward zero, resulting in a rounded-down value.
 
 ### Strings
