@@ -2,8 +2,10 @@ package main
 
 import "fmt"
 
+const greetings = "Hello, "
+
 func Hello(name string) string {
-	return "Hello, " + name
+	return greetings + name
 }
 
 func main() {
