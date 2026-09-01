@@ -64,6 +64,31 @@ func main() {
 	fmt.Println(cap(intSlice3)) // 8
 
 	// # Map
-	// key-value pair (can look up a value by its key)
-	// to be continue...
+	// set of key-value pair (can look up a value by its key)
+	// you can create a map using a make function
+	var myMap map[string]uint8 = make(map[string]uint8)
+	fmt.Println(myMap)
+
+	// you can initialize a map with a value
+	var myMap2 = map[string]uint8{"Jericho": 25, "Bruce": 32, "Victor": 44}
+	fmt.Println(myMap2["Jericho"])
+	// map will always return a value even the key doesnt exist, it will return a default value
+	// in his case we have uint8 so the default is 0
+	fmt.Println(myMap2["Diana"])
+
+	// map returns an optional second value, which is a boolean
+	// it will return a value if the value is in the map, false otherwise
+	var age, hasAge = myMap2["Jericho"]
+	println(age, hasAge)
+	// you can delete value from the map using built-in delete funcion
+	// first argument is the map and the second is the key
+	delete(myMap2, "Victor")
+
+	if hasAge {
+		fmt.Println(age)
+	} else {
+		fmt.Println("Invalid name")
+	}
+
+	fmt.Println(myMap2)
 }
