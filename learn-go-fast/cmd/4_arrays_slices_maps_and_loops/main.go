@@ -91,4 +91,12 @@ func main() {
 	}
 
 	fmt.Println(myMap2)
+
+	// Loops
+	// you can iterate a map using loops
+	// you can use the range keyword to iterate an array, slice or a map
+	// iterating over a map, no order is preserved
+	for name, age := range myMap2 {
+		fmt.Printf("%v is %v years old\n", name, age)
+	}
 }
